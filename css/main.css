@@ -1,0 +1,144 @@
+
+/**** BASE STYLES ****/
+
+body {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/**** GRID ****/
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section-one,
+.section-two,
+.section-three {
+    border-top: 1px solid #eeeeee;
+    float: left;
+    height: auto;
+    width: 399px;
+}
+
+/**** HEADER SECTION ****/
+
+header {
+    height: 110px;
+}
+
+header h1 {
+    float: left;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+/**** NAVIGATION SECTION ****/
+
+nav {
+    color: #77a466;
+    float: right;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 35px;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/**** MAIN SECTION ****/
+
+.main-image img {
+    border-bottom: 3px solid #77a466;
+    border-top: 3px solid #77a466;
+}
+
+.main-intro h2 {
+    color: #77a466;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.main-intro p {
+    line-height: 25px;
+}
+
+/**** SPECIALS SECTION ****/
+
+.section-one h3 {
+    padding: 10px 0;
+}
+
+.section-one ul {
+    color: #77a466;
+    padding: 0;
+}
+
+.section-one ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+/**** REVIEWS SECTION ****/
+
+.section-two {
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+}
+
+.section-two h3 {
+    padding: 10px 30px;
+}
+
+.section-two p {
+    padding: 0px 30px;
+    line-height: 21px;
+}
+
+/**** CONTACT SECTION ****/
+
+.section-three h3 {
+    padding: 10px 30px;
+}
+
+.section-three p {
+    padding: 0px 30px;
+    line-height: 24px;
+}
+
+/**** FOOTER SECTION ****/
+footer {
+    border-top: 1px solid #eeeeee;
+    clear: both;
+    text-align: center;
+}
+
+footer span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    font-size: 14px;
+    text-transform: lowercase;
+}
